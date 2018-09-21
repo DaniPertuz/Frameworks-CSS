@@ -1,0 +1,96 @@
+header, footer {
+  background: #f5f7ea;
+}
+
+body {
+  background: #b7baa5;
+}
+
+legend {
+  border-bottom: 3px solid #7fe876;
+}
+
+.barra {
+  min-height: 20px;
+  margin: 15px;
+}
+
+.logos {
+  height: 10%;
+  width: 10%;
+}
+
+.contenido {
+  background-color: #d9e58b;
+}
+
+.sangria {
+  text-indent: 40px;
+}
+
+.navegacion {
+  background-color: #7fe876;
+  display: flex;
+}
+
+.foto {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  border: 3px solid #7fe876;
+}
+
+a {
+  background-color: #7fe876;
+  margin: 5px;
+  padding: 2px 20px;
+  border-radius: 15px;
+  color: #000000;
+  font-size: 16px;
+}
+
+a:hover {
+  background-color: #f5f7ea;
+  color: #000000;
+  text-decoration: none;
+}
+
+#inicio, #artistas, #grupos, #top10, #letras, #acordes {
+  text-align: center;
+}
+
+#usuario {
+  width: 30px;
+}
+
+#search {
+  width: 7%;
+}
+
+#logo {
+  height: 100%;
+  width: 100%;
+}
+
+#buscador {
+  border-radius: 5px;
+  margin: 10px;
+}
+
+/*div {border: 2px solid black;}*/
+
+@media screen and (min-width:1024px) {
+  #redes>img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  #redes>img {
+    width: 5%;
+  }
+
+  #items {
+    display: none;
+  }
+}
